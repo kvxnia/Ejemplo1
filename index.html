@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura de una Página Web</title>
+    <style>
+        /* body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        } */
+        header, nav, footer {
+            text-align: center;
+            padding: 20px;
+        }
+        header {
+            background-color: #ff6666;
+        }
+        nav {
+            background-color: #ffb347;
+        }
+        footer {
+            background-color: #d3d3d3;
+        }
+        /* .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: auto;
+            gap: 10px;
+            padding: 20px;
+            flex-grow: 1;
+        } */
+        aside {
+            background-color: #d8bfd8;
+            padding: 15px;
+        }
+        main {
+            background-color: #ffff99;
+            padding: 20px;
+        }
+        section {
+            background-color: #90ee90;
+            margin-bottom: 10px;
+            padding: 15px;
+        }
+        article {
+            background-color: #add8e6;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encabezado (Header)</h1>
+        <p>Aquí va el título y el logo del sitio web.</p>
+    </header>
+
+    <nav>
+        <h2>Navegación (Nav)</h2>
+        <p>Menú de navegación con enlaces a otras páginas.</p>
+    </nav>
+
+    <div class="container">
+        <aside>
+            <h2>Barra Lateral (Aside)</h2>
+            <p>Contenido adicional como enlaces o anuncios.</p>
+        </aside>
+
+        <main>
+            <h2>Contenido Principal (Main)</h2>
+            <section>
+                <h3>Sección 1</h3>
+                <p>Una parte importante del contenido.</p>
+            </section>
+            <section>
+                <h3>Sección 2</h3>
+                <article>
+                    <h4>Artículo 1</h4>
+                    <p>Un artículo dentro de una sección.</p>
+                </article>
+            </section>
+        </main>
+
+        <aside>
+            <h2>Barra Lateral (Aside)</h2>
+            <p>Contenido adicional como enlaces o anuncios.</p>
+        </aside>
+    </div>
+
+    <footer>
+        <h2>Pie de Página (Footer)</h2>
+        <p>Información de contacto y derechos de autor.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
